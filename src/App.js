@@ -7,8 +7,11 @@ import image1 from "./images/image_1.jpg";
 function App() {
   return (
     <div className="App">
-      <PageTitle></PageTitle>
-      <PolaroidPhoto image={image1}></PolaroidPhoto>
+      <PageTitle
+        title="Summer Camp"
+        description="Open air Camp for kids"
+      ></PageTitle>
+      <PolaroidPhoto imageSrc={image1} text="Autumn 2020"></PolaroidPhoto>
     </div>
   );
 }
