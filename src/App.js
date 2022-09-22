@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PageTitle from "./components/PageTitle/PageTitle";
+import PolaroidPhoto from "./components/PolaroidPhoto/PolaroidPhoto";
+
+import image1 from "./images/image_1.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PageTitle></PageTitle>
+      <PolaroidPhoto image={image1}></PolaroidPhoto>
     </div>
   );
 }

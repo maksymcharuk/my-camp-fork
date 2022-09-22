@@ -1,0 +1,45 @@
+.PageTitle {}
+
+.Logo {
+  display: flex;
+  margin-bottom: 1em;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  text-align: center;
+}
+
+.LogoImage {
+  width: 2em;
+}
+
+.LogoBlock {
+  display: flex;
+  width: 3em;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-image: linear-gradient(135deg, #ff595e, #f9c74f);
+}
+
+.LogoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row-gap: 0.2em;
+  text-align: center;
+}
+
+.LogoTitle {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.LogoDescription {
+  padding-top: 0.5em;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+}
