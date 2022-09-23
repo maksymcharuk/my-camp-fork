@@ -46,7 +46,7 @@ const PolaroidPhoto = ({ turn, imageSrc, imageSize, text }) => {
           alt=""
           className={`${styles.Photo} ${imageSizeClass(imageSize)}`}
         />
-        <h5 class="polaroid-title">{text}</h5>
+        <h5 className="polaroid-title">{text}</h5>
       </button>
 
       {isOpen && (

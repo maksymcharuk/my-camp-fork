@@ -39,9 +39,9 @@ const CardNavigation = ({
         children
       )}
 
-      <div class="link-content">
+      <div className="link-content">
         {renderTitle(titleSize, title)}
-        <p class="link-description">{description}</p>
+        <p className="link-description">{description}</p>
       </div>
     </a>
   );

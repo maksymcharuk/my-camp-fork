@@ -7,7 +7,7 @@ const Registration = () => (
     <h5 className={styles.Date}>
       01–30 <br></br> June
     </h5>
-    <a href="/registration" class="button">
+    <a href="/registration" className="button">
       <h3>Registration is Open</h3>
     </a>
     <h5 className={styles.Season}>

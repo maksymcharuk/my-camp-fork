@@ -68,26 +68,26 @@ const Home = () => (
         titleSize="small"
         description="and what don't take"
       >
-        <div class="icons">
+        <div className="icons">
           <img
             src="https://assets.website-files.com/62e852b3b3432f63a22b8844/62e8f93e7adb7f86c300110c_streamlinehq-shopping-catergories-shirt-money-shopping-250.SVG"
             loading="lazy"
             alt=""
-            class="link-icon"
+            className="link-icon"
           />
           <div>+</div>
           <img
             src="https://assets.website-files.com/62e852b3b3432f63a22b8844/62e8f73412308d6f1622f269_streamlinehq-interface-help-customer-support-5-interface-essential-250-2.SVG"
             loading="lazy"
             alt=""
-            class="link-icon"
+            className="link-icon"
           />
           <div>→</div>
           <img
             src="https://assets.website-files.com/62e852b3b3432f63a22b8844/62e8fb91f9a283de58e0318d_streamlinehq-travel-airport-baggage-maps-travel-250-2.SVG"
             loading="lazy"
             alt=""
-            class="link-icon"
+            className="link-icon"
           />
         </div>
       </CardNavigation>
@@ -128,18 +128,18 @@ const Home = () => (
         title="Photos & Videos"
         description="Like and Retweet"
       >
-        <div class="icons">
+        <div className="icons">
           <img
             src="https://assets.website-files.com/62e852b3b3432f63a22b8844/62e8f4544af443508a817eac_streamlinehq-image-camera-1-images-photography-250.SVG"
             loading="lazy"
             alt=""
-            class="link-icon"
+            className="link-icon"
           />
           <img
             src="https://assets.website-files.com/62e852b3b3432f63a22b8844/62e9086cc3a2bbd6aef41ccd_streamlinehq-computer-logo-youtube-computer-devices-250.SVG"
             loading="lazy"
             alt=""
-            class="link-icon"
+            className="link-icon"
           />
         </div>
       </CardNavigation>
