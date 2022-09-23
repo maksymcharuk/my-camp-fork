@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import PageTitle from "./components/PageTitle/PageTitle";
 import PolaroidPhoto from "./components/PolaroidPhoto/PolaroidPhoto";
 import Registration from "./components/Registration/Registration";
@@ -45,6 +46,7 @@ function App() {
         </div>
       </a>
       {/* CardNavigation END */}
+      <Footer></Footer>
     </div>
   );
 }

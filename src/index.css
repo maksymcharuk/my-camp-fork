@@ -113,6 +113,11 @@ p {
   color: #444;
 }
 
+.link:hover {
+  box-shadow: 0 10px 30px -30px #000;
+  transform: scale(1.15);
+}
+
 .link.large {
   padding-top: 1.5em;
   padding-right: 2.5em;
