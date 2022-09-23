@@ -20,7 +20,11 @@
   transform: rotate(-7.5deg);
 }
 
-.PolaroidPhoto.TurnLeft:hover {
+.PolaroidPhoto.TurnRight {
+  transform: rotate(7.5deg);
+}
+
+.PolaroidPhoto:hover {
   transform: scale(1.35) rotate(0deg);
 }
 
@@ -32,7 +36,20 @@
   object-fit: cover;
 }
 
-.Photo.Tiny {
+.Photo.ImageTiny {
   width: 5em;
   height: 5em;
+}
+
+.Photo.ImageLarge {
+  width: 12em;
+  height: 8em;
+}
+
+.Photo.ImageSquare {
+  height: 9em;
+}
+
+.Photo.ImageSquareSmall {
+  width: 6em;
 }

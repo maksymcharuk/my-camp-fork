@@ -1,1 +1,33 @@
 .Home {}
+
+.Header {
+  position: relative;
+  display: flex;
+  padding: 10vh 8% 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BlockAbsolute {
+  position: absolute;
+}
+
+.BlockAbsolute.PhotoLeft{
+  left: 3em;
+}
+
+.BlockAbsolute.PhotoRight{
+  right: 3em;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  grid-column-gap: 3em;
+  grid-row-gap: 2em;
+  padding: 3vh 8% 8vh;
+}
