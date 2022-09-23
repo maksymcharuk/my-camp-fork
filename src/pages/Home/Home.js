@@ -6,7 +6,7 @@ import PolaroidPhoto from "../../components/PolaroidPhoto/PolaroidPhoto";
 import Registration from "../../components/Registration/Registration";
 import Footer from "../../components/Footer/Footer";
 
-import image1 from "./images/image_1.jpg";
+import image1 from "../../images/image_1.jpg";
 
 const Home = () => (
   <div className={styles.Home} data-testid="Home">
